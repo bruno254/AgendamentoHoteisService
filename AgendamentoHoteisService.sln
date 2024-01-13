@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendamentoHoteis.Service", "AgendamentoHoteisService\AgendamentoHoteis.Service.csproj", "{217ED411-2682-480F-AEEA-CF53FCF6102B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4530BCF8-D4F2-4B40-AF9E-4B9933A10043} = {4530BCF8-D4F2-4B40-AF9E-4B9933A10043}
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9} = {F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendamentoHoteisService.Data", "AgendamentoHoteisService.Data\AgendamentoHoteisService.Data.csproj", "{4530BCF8-D4F2-4B40-AF9E-4B9933A10043}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9} = {F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendamentoHoteis.Business", "AgendamentoHoteis.Business\AgendamentoHoteis.Business.csproj", "{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217ED411-2682-480F-AEEA-CF53FCF6102B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217ED411-2682-480F-AEEA-CF53FCF6102B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217ED411-2682-480F-AEEA-CF53FCF6102B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217ED411-2682-480F-AEEA-CF53FCF6102B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4530BCF8-D4F2-4B40-AF9E-4B9933A10043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4530BCF8-D4F2-4B40-AF9E-4B9933A10043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4530BCF8-D4F2-4B40-AF9E-4B9933A10043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4530BCF8-D4F2-4B40-AF9E-4B9933A10043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8199CCD-2127-4F14-A6CD-B4D9B99FEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64275320-5D4A-4C46-8BAD-D38B9579E082}
+	EndGlobalSection
+EndGlobal
